@@ -1,0 +1,31 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+Paul "Graham" Wren
+
+2. Which VPS & domain providers did you choose?
+AWS Lightsail, AWS Route53
+
+3. What domain name did you register?
+cs4550.maineisland.co
+
+4. What's the URL of your Github repository for this assignment?
+https://github.com/grahamwren/cs4550-homeworks
+
+5. Which parts of this assignment did you have trouble with, if any?
+SSL is not provided free with lightsail unlike with ec2 and elb.
+
+6. Did you complete your Bottlenose profile with a picture and reasonable name?
+yes
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
+ - Task 9
