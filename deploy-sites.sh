@@ -1,8 +1,8 @@
 #!/bin/bash
 
 cd ~/cs4550-homeworks
-date >> ~/deploys.log
-git pull >> ~/deploys.log
-echo "" >> ~/deploys.log
+date
+git pull
+echo ""
 
 # run make/build scripts
