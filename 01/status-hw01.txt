@@ -5,7 +5,7 @@ Please fill in answers to the questions below:
 Paul "Graham" Wren
 
 2. Which VPS & domain providers did you choose?
-AWS Lightsail, AWS Route53
+AWS LightSail, AWS Route53
 
 3. What domain name did you register?
 cs4550.maineisland.co
