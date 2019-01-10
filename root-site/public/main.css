@@ -1,0 +1,12 @@
+@import 'colors.scss';
+
+body {
+    margin: 0;
+}
+
+.shared-header {
+    display: flex;
+    justify-content: space-between;
+    background: grey;
+    height: 10rem;
+}
