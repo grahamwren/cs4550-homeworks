@@ -1,0 +1,43 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+Paul "Graham" Wren
+
+2. What hostname did you deploy to?
+cs4550.maineisland.co
+
+3. What's the link to your repository on github with your code?
+https://github.com/grahamwren/cs4550-homeworks
+
+4. How many HTML / CSS tutorial exercises did you do?
+
+
+5. How comfortable do you feel with HTML and CSS now?
+
+
+6. How many JS tutorial exercises did you do?
+
+
+7. How comfortable do you feel with JS now?
+
+
+8. Do all of your HTML pages pass the W3C HTML validator?
+(https://validator.w3.org/)
+
+
+9. Which parts of this assignment did you have trouble with, if any?
+
+
+
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
