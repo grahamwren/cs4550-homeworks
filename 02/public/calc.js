@@ -19,7 +19,6 @@
       runningFunctionButton.classList.add('listening');
     }
 
-    console.log({decimalMode});
     if (decimalMode) {
       document.querySelector('.calc .button[data-button-val="."]').classList.add('listening');
     } else {
