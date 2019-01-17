@@ -1,0 +1,59 @@
+/*
+  no palettes without scss so here is the palette
+  main:         #6EA2C3
+  dark back:    #232F3F
+  dark accent:  #7B7C78
+  light back:   #F6F8F9
+  light accent: #828474
+*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Helvetica Neue", monospace;
+  margin: 0;
+  min-height: 100vh;
+}
+
+section {
+  padding: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* dark */
+section:nth-child(odd) {
+  background: #232F3F;
+  color: #7B7C78;
+}
+/* light */
+section:nth-child(even) {
+  background: #F6F8F9;
+  color: #828474;
+}
+
+h1, h2, a {
+  margin: 0;
+  color: #6EA2C3;
+}
+
+section > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.links {
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+section.links > * {
+  margin: 0;
+}
