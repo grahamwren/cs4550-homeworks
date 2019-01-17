@@ -1,0 +1,13 @@
+server {
+	listen 80;
+	listen [::]:80;
+
+	server_name hw02.cs4550.maineisland.co;
+
+	root /home/ubuntu/www/hw02;
+	index index.html;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}
+}
