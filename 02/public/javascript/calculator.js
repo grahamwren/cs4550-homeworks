@@ -25,7 +25,8 @@
 
     get currentNumber() {
       if (this._currentNumberBuffer.length === 0) return;
-      return Number(this._currentNumberBuffer.join(''));
+      const n = Number(this._currentNumberBuffer.join(''));
+      return Number.isNaN(n) ? 0 : n;
     }
     get runningFunction() { return this._runningFunction; }
     get decimalMode() { return this._decimalMode; }

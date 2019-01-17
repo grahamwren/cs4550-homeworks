@@ -1,7 +1,4 @@
-html {
-  min-height: 100%;
-  position: relative;
-}
+
 
 body {
   margin: 0;
@@ -19,6 +16,18 @@ body {
 .calc-container {
   width: 10rem;
   height: 12rem;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .calc-container {
+    width: calc(100vw - 2rem);
+    height: calc(60vh);
+    font-size: 6rem !important;
+  }
+
+  .button {
+    font-size: 6rem !important;
+  }
 }
 
 .calc-container .display-container {
