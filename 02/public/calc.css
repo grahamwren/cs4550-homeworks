@@ -1,0 +1,66 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.calc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.calc-container {
+  width: 10rem;
+  height: 12rem;
+}
+
+.calc-container .display-container {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  background: grey;
+}
+
+.calc-container .display {
+  padding: 0 1rem;
+  width: 100%;
+  text-align: right;
+}
+
+.calc-container .buttons-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  background: grey;
+}
+
+.calc-container .button {
+  width: calc(25% - 0.5rem);
+  height: calc(25% - 0.5rem);
+  padding: 0.25rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  border-style: none;
+}
+
+.calc-container .button:focus {
+  outline: 0;
+}
+.calc-container .button:active {
+  border-style: solid;
+}
+
+.calc-container .button.function:focus,
+.calc-container .button.function.listening {
+  background: lightgrey;
+  border-style: solid;
+}
