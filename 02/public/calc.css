@@ -27,6 +27,7 @@ body {
 
   .button {
     font-size: 6rem !important;
+    touch-action: manipulation;
   }
 }
 
@@ -36,6 +37,7 @@ body {
   display: flex;
   align-items: center;
   background: grey;
+  overflow: scroll;
 }
 
 .calc-container .display {
@@ -71,6 +73,6 @@ body {
 
 .calc-container .button.function:focus,
 .calc-container .button.function.listening {
-  background: lightgrey;
+  background: rgb(211, 211, 211);
   border-style: solid;
 }
