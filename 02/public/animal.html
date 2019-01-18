@@ -1,186 +1,188 @@
 <!doctype html>
-<html>
-<head>
-  <!--<link rel="stylesheet" href="animal.css">-->
-  <style>
-    /*
-      no palettes without scss so here is the palette
-      main:         #6EA2C3
-      dark back:    #232F3F
-      dark accent:  #7B7C78
-      light back:   #F6F8F9
-      light accent: #828474
-    */
+<html lang="en">
+  <head>
+    <title>Animal</title>
+    <meta charset="UTF-8">
+    <!--<link rel="stylesheet" href="animal.css">-->
+    <style>
+      /*
+        no palettes without scss so here is the palette
+        main:         #6EA2C3
+        dark back:    #232F3F
+        dark accent:  #7B7C78
+        light back:   #F6F8F9
+        light accent: #828474
+      */
 
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: "Helvetica Neue", monospace;
-      margin: 0;
-      min-height: 100vh;
-    }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Helvetica Neue", monospace;
+        margin: 0;
+        min-height: 100vh;
+      }
 
-    section {
-      padding: 1rem 0;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+      section {
+        padding: 1rem 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
 
-    /* dark */
-    section:nth-child(odd) {
-      background: #232F3F;
-      color: #7B7C78;
-    }
-    /* light */
-    section:nth-child(even) {
-      background: #F6F8F9;
-      color: #828474;
-    }
+      /* dark */
+      section:nth-child(odd) {
+        background: #232F3F;
+        color: #7B7C78;
+      }
+      /* light */
+      section:nth-child(even) {
+        background: #F6F8F9;
+        color: #828474;
+      }
 
-    h1, h2, a {
-      margin: 0;
-      color: #6EA2C3;
-    }
+      h1, h2, a {
+        margin: 0;
+        color: #6EA2C3;
+      }
 
-    section > *:not(:last-child) {
-      margin-bottom: 1rem;
-    }
+      section > *:not(:last-child) {
+        margin-bottom: 1rem;
+      }
 
-    .links {
-      justify-content: space-around;
-      flex-direction: row;
-    }
+      .links {
+        justify-content: space-around;
+        flex-direction: row;
+      }
 
-    .links a {
-      text-decoration: none;
-    }
+      .links a {
+        text-decoration: none;
+      }
 
-    section.links > * {
-      margin: 0;
-    }
+      section.links > * {
+        margin: 0;
+      }
 
-    .animal-name {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: -1rem 0 0 0 !important;
-      background: #6EA2C3;
-      padding: 0.5rem 1rem;
-      width: 100%;
+      .animal-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -1rem 0 0 0 !important;
+        background: #6EA2C3;
+        padding: 0.5rem 1rem;
+        width: 100%;
 
-    }
+      }
 
-    .animal-name span:nth-child(1) {
-      color: red;
-    }
+      .animal-name span:nth-child(1) {
+        color: red;
+      }
 
-    .animal-name span:nth-child(2) {
-      color: orangered;
-    }
+      .animal-name span:nth-child(2) {
+        color: orangered;
+      }
 
-    .animal-name span:nth-child(3) {
-      color: orange;
-    }
+      .animal-name span:nth-child(3) {
+        color: orange;
+      }
 
-    .animal-name span:nth-child(4) {
-      color: yellow;
-    }
+      .animal-name span:nth-child(4) {
+        color: yellow;
+      }
 
-    .animal-name span:nth-child(5) {
-      color: yellowgreen;
-    }
+      .animal-name span:nth-child(5) {
+        color: yellowgreen;
+      }
 
-    .animal-name span:nth-child(6) {
-      color: green;
-    }
+      .animal-name span:nth-child(6) {
+        color: green;
+      }
 
-    .animal-name span:nth-child(7) {
-      color: blue;
-    }
+      .animal-name span:nth-child(7) {
+        color: blue;
+      }
 
-    .animal-name span:nth-child(8) {
-      color: indigo;
-    }
+      .animal-name span:nth-child(8) {
+        color: indigo;
+      }
 
-    .animal-name span:nth-child(9) {
-      color: violet;
-    }
+      .animal-name span:nth-child(9) {
+        color: violet;
+      }
 
-    .twos-table .title {
-      margin-bottom: 1rem;
-    }
+      .twos-table .title {
+        margin-bottom: 1rem;
+      }
 
-    table, td, tr, th {
-      border: 1px solid #6EA2C3;
-      border-collapse: collapse;
-      padding: 0 1rem;
-    }
-  </style>
-</head>
-<body>
-  <section class="links">
-    <a href="//cs4550.maineisland.co">CS4550</a>
-    <a href="//hw02.cs4550.maineisland.co">Homework 2</a>
-    <a href="https://www.w3schools.com/html/default.asp">Learn HTML</a>
-    <a href="https://www.w3schools.com/css/default.asp">Learn CSS</a>
-    <a href="https://github.com/grahamwren/cs4550-homeworks">Github</a>
-  </section>
+      table, td, tr, th {
+        border: 1px solid #6EA2C3;
+        border-collapse: collapse;
+        padding: 0 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="links">
+      <a href="//cs4550.maineisland.co">CS4550</a>
+      <a href="//hw02.cs4550.maineisland.co">Homework 2</a>
+      <a href="https://www.w3schools.com/html/default.asp">Learn HTML</a>
+      <a href="https://www.w3schools.com/css/default.asp">Learn CSS</a>
+      <a href="https://github.com/grahamwren/cs4550-homeworks">Github</a>
+    </section>
 
-  <section class="animal">
-    <div class="animal-name">
-      <h1>
-        <span>W</span><span>a</span><span>t</span><span>e</span><span>r</span>
-        <span>D</span><span>e</span><span>e</span><span>r</span>
-      </h1>
-    </div>
-    <a href="https://en.wikipedia.org/wiki/Water_deer">Wikipedia</a>
-    <img class="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Chinese_water_deer_Stuffed_specimen_2.jpg/440px-Chinese_water_deer_Stuffed_specimen_2.jpg"/>
-  </section>
+    <section class="animal">
+      <div class="animal-name">
+        <h1>
+          <span>W</span><span>a</span><span>t</span><span>e</span><span>r</span>
+          <span>D</span><span>e</span><span>e</span><span>r</span>
+        </h1>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/Water_deer">Wikipedia</a>
+      <img class="pic" alt="Water Deer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Chinese_water_deer_Stuffed_specimen_2.jpg/440px-Chinese_water_deer_Stuffed_specimen_2.jpg"/>
+    </section>
 
-  <section class="twos-table">
-    <h2 class="title">Table Of Powers Of Two</h2>
-    <table>
-      <tr>
-        <th>X</th>
-        <th>2^X</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>4</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>8</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>16</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>32</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>64</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>128</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>256</td>
-      </tr>
-    </table>
-  </section>
-</body>
+    <section class="twos-table">
+      <h2 class="title">Table Of Powers Of Two</h2>
+      <table>
+        <tr>
+          <th>X</th>
+          <th>2^X</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>32</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>64</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>128</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>256</td>
+        </tr>
+      </table>
+    </section>
+  </body>
 </html>

@@ -11,25 +11,24 @@ cs4550.maineisland.co
 https://github.com/grahamwren/cs4550-homeworks
 
 4. How many HTML / CSS tutorial exercises did you do?
-
+8
 
 5. How comfortable do you feel with HTML and CSS now?
-
+Rather
 
 6. How many JS tutorial exercises did you do?
-
+5
 
 7. How comfortable do you feel with JS now?
-
+Very
 
 8. Do all of your HTML pages pass the W3C HTML validator?
 (https://validator.w3.org/)
+Yes
 
 
 9. Which parts of this assignment did you have trouble with, if any?
-
-
-
+N/A
 
 
 And here's a list of tasks for grading comments. Just leave this here:
